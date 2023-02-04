@@ -1,14 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-struct node {
-    int val;
-    struct node *next;
-};
 
 int main() {
-    struct node a;
-    struct node b;
-    a.next = &b;
-    a.val = 999;
-    printf("%d", a.next);
+    char a = 'a';
+    printf("%d\n", a);
+    printf("%c", a);
 }
