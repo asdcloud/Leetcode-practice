@@ -2,5 +2,7 @@
     "files.associations": {
         "vector": "cpp",
         "ratio": "cpp"
-    }
+    },
+    "editor.inlineSuggest.enabled": false,
+    "chat.disableAIFeatures": true
 }
